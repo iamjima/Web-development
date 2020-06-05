@@ -1,0 +1,33 @@
+.animation-1{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    display: inline-block;
+
+   
+}
+
+.animation-1.translate-1:hover{
+    transform: translate3d(20px, 20px, 20px)
+}
+
+.animation-1.skew-1:hover{
+    transform: scale(2)
+}
+
+.animation-1.rotate-1:hover{
+    transform: rotate(20deg)
+}
+
+.animation-1.3drotate-1:hover{
+    transform: rotate3d(30deg, 30deg, 30deg)
+}
+
+.animation-1.rotateY-1:hover{
+    transform: rotateY(45deg)
+}
+
+.animation-1.skew-1:hover{
+    transform: skewX(45deg)
+}
