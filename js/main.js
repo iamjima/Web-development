@@ -1,18 +1,26 @@
+function details() {
+    document.querySelector("#name").value = "rambutan";
+    document.querySelector("#amount").value = "200";
+    document.querySelector("#type").value = "income";
+    document.querySelector("button").innerHTML = "clear";
+    document.querySelector("button").style.background = "red";
+};
 
-// Creating variables
-var firstName;
-let lastName;
+details();
 
-// Assinging Values
-var firstName = "Jithma";
-let lastName = "Pramudith";
+document.querySelector("#sub").addEventListener("click", function(){
 
-// create a function
+    if (document.querySelector("#name").value === "") {
+        details();
+        
+    } else {
+        document.querySelector("#name").value = "";
+    document.querySelector("#amount").value = "";
+    document.querySelector("#type").value = "";
+    document.querySelector("button").innerHTML = "genarate";
+    document.querySelector("button").style.background = "green";
+    
+    }
+});
 
-function myFunction() {
 
-}
-
-// call a function
-
-myFunction();

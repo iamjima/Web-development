@@ -8,7 +8,7 @@
    
 }
 
-.animation-1.translate-1:hover{
+/* .animation-1.translate-1:hover{
     transform: translate3d(20px, 20px, 20px)
 }
 
@@ -29,5 +29,56 @@
 }
 
 .animation-1.skew-1:hover{
-    transform: skewX(45deg)
+    transform: skewX(45deg) */
+/* } */
+
+/* ----------------------------calculator css-------------------------------- */
+
+.section-1{
+    background-color: #FFE878;
+    height: 140px;
+    /* width: 100%; */
+}
+
+.heading-1{
+    margin: auto;
+    font-size: 100px;
+    color:#242D3C;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.section-2{
+    background-color: #77DAD5;
+    height: 900px;
+}
+
+.section-3{
+    background-color: #0081BB;
+    height: 900px;
+    padding: 0px;
+}
+
+.section-3-heading{
+    text-align: center;
+    width: 100%;
+    padding: 0 30px;
+    background-color: #FA6E91;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.form-1{
+
+ text-align: center;
+ margin-top: 200px;
+}
+
+.table-1 {
+    margin-top: 25px;
+    color: white;
 }
